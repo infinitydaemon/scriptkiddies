@@ -1,4 +1,4 @@
-# Crack MD5 passwords of any strnght using GPU using dictionary
+# Crack MD5 passwords of any strenght using a dictionary
 
 import hashlib
 import pycuda.driver as cuda
