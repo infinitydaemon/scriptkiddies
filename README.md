@@ -20,7 +20,7 @@ git clone https://github.com/<your-username>/script-kiddies.git
 You will also need to install any necessary dependencies. You can do this by running:
 
 ```
-pip install -r requirements.txt
+pip install requirement/lib
 ```
 
 ## Usage
