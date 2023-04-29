@@ -9,7 +9,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
 
 print(f'Connected to {HOST}:{PORT}')
-
+# replace with anything to perform any other given task
 while True:
     # Record audio
     duration = 1  # 1 second
