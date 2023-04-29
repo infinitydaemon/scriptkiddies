@@ -1,3 +1,21 @@
+```python
+class CWD_TOOLS():
+    
+  def __init__(self):
+    self.name = "cwd";
+    self.username = "cwdsystems";
+    self.location = "USA, Canada, Pakistan, KyrgzRepublic, Indonesia";
+    self.protonmail = "@cwdsystems";
+    self.web = "https://cwd.systems";
+    self.languages ="Python,Bash,C";
+  
+  def __str__(self):
+    return self.name
+
+if __name__ == '__main__':
+    me = CWD_TOOLS()
+```
+
 # Script Kiddies
 
 Script Kiddies is a collection of pen testing scripts for beginners to learn and practice ethical hacking techniques. These scripts are designed to be easy to use and understand, making them a great resource for those who are new to pen testing.
@@ -20,7 +38,7 @@ git clone https://github.com/<your-username>/script-kiddies.git
 You will also need to install any necessary dependencies. You can do this by running:
 
 ```
-pip install -r requirements.txt
+pip install requirement/lib
 ```
 
 ## Usage
