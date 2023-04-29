@@ -12,8 +12,8 @@ print(f'Connected to {HOST}:{PORT}')
 # replace with anything to perform any other given task
 while True:
     # Record audio
-    duration = 1  # 1 second
-    sample_rate = 44100  # CD quality
+    duration = 1  # 1 second. change to any duration of audio recording
+    sample_rate = 44100  # CD quality. Replace with half for mid quality
     audio = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=1)
     sd.wait()  # Wait for recording to finish
 
