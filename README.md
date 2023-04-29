@@ -32,7 +32,7 @@ Script Kiddies is a collection of pen testing scripts for beginners to learn and
 To install the Script Kiddies scripts, simply clone this repository to your local machine:
 
 ```
-git clone https://github.com/<your-username>/script-kiddies.git
+git clone https://github.com/infinitydaemon/script-kiddies.git
 ```
 
 You will also need to install any necessary dependencies. You can do this by running:
