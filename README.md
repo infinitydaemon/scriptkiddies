@@ -54,7 +54,7 @@ cd <script-directory>
 python <script-name>.py
 ```
 
-Be sure to read the script's documentation before running it to understand what it does and what kind of output you should expect.
+The scripts do not have documentation so if you are here, it is assumed that you know how to use them and fulfill script requirements.
 
 ## Contributing
 
