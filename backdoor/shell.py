@@ -1,5 +1,8 @@
 # Creates a remote shell on a target system and waits for a connection
 # Use nc <target_ip> <target port> to connect and run shell commands
+# You need pyinstaller to make this executable for Windows or Mac
+# pyinstaller --onefile shell.py will make a shell.exe under dist folder
+# Happy pen-testing!
 
 import socket
 import os
