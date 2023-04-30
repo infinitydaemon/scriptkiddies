@@ -1,4 +1,4 @@
-# Crack MD5 passwords of any strnght using GPU using dictionary
+# Crack MD5 passwords of any strenght with nVidia's CUDA using a dictionary file
 
 import hashlib
 import pycuda.driver as cuda
@@ -55,7 +55,7 @@ def crack_password(hash_value, words):
 
 if __name__ == '__main__':
     hash_value = 'INSERT_MD5_HASH_VALUE_HERE'
-    words_file = 'path/to/wordlist.txt'
+    words_file = 'path/to/wordlist.txt' # Dictionary file path
     words = load_words(words_file)
     password = crack_password(hash_value, words)
     if password is not None:
